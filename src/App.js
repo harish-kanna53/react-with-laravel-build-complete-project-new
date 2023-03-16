@@ -6,7 +6,16 @@ import Exercise2 from './Components/Exercise2';
 import { doc } from 'prettier';
 // let number=[1,'kjhb',2];
 function App() {
- 
+ //Class & ojects
+ class Fruit{
+    constructor(name){
+        this.name =name;
+    }
 
+    fool(){
+        console.log(`${this.name} is very tastey`);
+    }
+ }
+fool.Fruit("mango");
 }
 export default App;
